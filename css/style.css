@@ -69,7 +69,7 @@ figure {
 
 .page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
     padding: 11px;
-    background: #ccc;
+    background: #fff;
 }
 
 .page-border .bottom-border, .page-border .top-border {
