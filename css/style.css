@@ -62,7 +62,7 @@ figure {
 }
 
 .page-border .bottom-border, .page-border .left-border, .page-border .right-border, .page-border .top-border {
-    background: #f3f3ef;
+    background: white;
     position: fixed;
     z-index: 9999;
 }
@@ -768,7 +768,7 @@ h6 {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(white); 
     z-index: 0;
 }
 
