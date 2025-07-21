@@ -62,14 +62,14 @@ figure {
 }
 
 .page-border .bottom-border, .page-border .left-border, .page-border .right-border, .page-border .top-border {
-    background: white;
+    background: #ccc;
     position: fixed;
     z-index: 9999;
 }
 
 .page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
     padding: 11px;
-    background: #fff;
+    background: #ccc;
 }
 
 .page-border .bottom-border, .page-border .top-border {
@@ -482,7 +482,7 @@ section {
 }
 
 #header.nav-solid {
-    background: #fff;
+    background: #726f6f;
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
     position: fixed !important;
     left:0;
@@ -513,7 +513,7 @@ section {
 
 #header.nav-solid .social-icons a:hover {
     opacity: 1;
-    color: #e4473c;
+    color: #f9f7f7;
 }
 
 /* Responsive Nav Styling */
@@ -565,7 +565,7 @@ section {
 }
 
 .nav-solid #nav-trigger span.open:hover {
-    color: #999;
+    color: #ae1616;
 }
 
 .nav-solid #nav-trigger span {
@@ -1047,7 +1047,7 @@ blockquote {
         cursor: pointer;
         background: #333;
         /* IE8 "hack" for nested featherlights */
-        background: rgba(0, 0, 0, 0);
+        background: rgba(219, 12, 12, 0);
     }
 
     /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
@@ -1178,7 +1178,7 @@ blockquote {
         -ms-user-select: none;
         user-select: none;
         /* IE9 hack, otherwise navigation doesn't appear */
-        background: rgba(0, 0, 0, 0);
+        background: rgba(225, 21, 21, 0);
         -webkit-transition: all 0.3s ease-out;
         -moz-transition: all 0.3s ease-out;
         -o-transition: all 0.3s ease-out;
@@ -2382,7 +2382,7 @@ blockquote {
     color: white;
 }
 .section-heading {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(54, 52, 52, 0.6);
     padding: 30px;
     border-radius: 12px;
 }
@@ -2393,9 +2393,10 @@ blockquote {
 .section-heading h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    
 }
 .button {
-    background-color: #f39c12;
+    background-color: #f2efec;
     color: #fff;
     padding: 12px 24px;
     border: none;
