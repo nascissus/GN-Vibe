@@ -2409,3 +2409,42 @@ blockquote {
 .button:hover {
     background-color: #e67e22;
 }
+
+
+
+#scrolling-header {
+    width: 100%;
+    overflow: hidden;
+    background: #1a237e;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: scroll-left 15s linear infinite;
+     will-change: transform;
+    transition: opacity 0.5s;
+}
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* Push down the rest of the page to avoid overlap */
+body {
+    margin-top: 40px;
+}
+
